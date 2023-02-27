@@ -7,22 +7,14 @@
 Для того щоб підключити CSS код бібліотеки в проект, необхідно додати ще один імпорт, крім того, що описаний в документації.
 
 // Описаний в документації
-## import SimpleLightbox from "simplelightbox";
+import SimpleLightbox from "simplelightbox";
 // Додатковий імпорт стилів
-## import "simplelightbox/dist/simple-lightbox.min.css";
+import "simplelightbox/dist/simple-lightbox.min.css";
 
 # Завдання 2 - відеоплеєр
 HTML містить <iframe> з відео для Vimeo плеєра. Напиши скрипт, який буде зберігати поточний час відтворення відео у локальне сховище і, після перезавантаження сторінки, продовжувати відтворювати відео з цього часу.
 
-## <iframe
-  id="vimeo-player"
-  src="https://player.vimeo.com/video/236203659"
-  width="640"
-  height="360"
-  frameborder="0"
-  allowfullscreen
-  allow="autoplay; encrypted-media"
-></iframe>
+<iframe id="vimeo-player" src="https://player.vimeo.com/video/236203659" width="640" height="360" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
 
 Виконуй це завдання у файлах 02-video.html і 02-video.js. Розбий його на декілька підзавдань:
 
