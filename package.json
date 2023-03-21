@@ -15,7 +15,7 @@
   "author": "Dmytro Velkov <dmytrovelkov@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/DmytroAV/js-hw-08/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
